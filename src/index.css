@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.books-info{
+border: 1px solid grey;
+height: 250px;
+width: 600px;
+float: center !important;
+margin-bottom: 20px;
+}
+
+.book-list{
+display: flex;
+justify-content:center;
+align-items:center;
+flex-direction: column;
+}
+
+.books-text{
+font-size: 25px;
+}
